@@ -15,7 +15,7 @@ const vestibular = {
 			{
 				name: "A falência",
 				author: "Julia Lopes de Almeida",
-		    publisher: "Principis"
+		        publisher: "Principis"
 			},
 			{
 				name: "Sagarana",
@@ -44,3 +44,11 @@ const vestibular = {
 			}
 	]
 }
+
+function vestBooks(vestibular){
+    for(let i=0; i < vestibular.books.length; i++ ) {
+        console.log(vestibular.books[i])
+    }
+}
+
+vestBooks(vestibular)

@@ -26,6 +26,16 @@ const brasil = {
             name: "Bahia",
             region: "Nordeste",
             capital: "Salvador"
+        },
+        {
+            name: "Ceará",
+            region: "Nordeste",
+            capital: "Fortaleza"
+        },
+        {
+            name: "Espírito Santo",
+            region: "Centro-Oeste",
+            capital: "Brasília"
         }
         
 
